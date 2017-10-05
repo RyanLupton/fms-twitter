@@ -59,6 +59,8 @@ def secretMessage(api, username):
 # Problem 3
 def custom(api):
     # <your code goes here>
+    # I encounter an expected error in the code because I am not allowed (twitter rules) to tweet someone that does not follow me
+    # The code works to trigger this default Twitter function
     clever = 'Do something clever'
     searchtext = 'food stamps'
     clever1 = api.search(q=searchtext)
